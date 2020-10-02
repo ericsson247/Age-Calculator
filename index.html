@@ -19,17 +19,17 @@
             <div>
                 <p class="details">Enter your informations below</p>
                 <form action="" class="form">
-                    <input type="text" name="yourName" placeholder="First Name" class="input">
-                    <input type="text" age="yourAge" placeholder="Surname" class="input">
-                    <input type="number" name="text" placeholder="Enter your Age" class="input">
-                    <button class="summit">Summit</button>
+                    <input type="text" id="aName" name="yourName" placeholder="First Name" class="input">
+                    <input type="text" id="bName" age="yourAge" placeholder="Surname" class="input">
+                    <input type="number" id="cAge" name="text" placeholder="Enter your Age" class="input">
+                    <button class="summit" onclick="calAgeDays();return false">Summit</button>
                 </form>
             </div>
             
         </div>
         <div class="box3 hidden">
             <h3>CONGRATULATIONS!</h3>
-            <input type="text" age="yourAge" placeholder="Age in Days" class="input">
+            <input type="text" age="yourAge" placeholder="Age in Days" class="input" value="" id="output">
             </div>
     </body>
 
